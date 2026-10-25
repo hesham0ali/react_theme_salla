@@ -1,0 +1,316 @@
+{
+  "meta": {
+    "title": "FORME — Contemporary Essentials",
+    "description": "FORME — elevated essentials and contemporary apparel."
+  },
+  "language": {
+    "englishShort": "EN",
+    "arabicShort": "العربية",
+    "switchToEnglish": "Switch to English",
+    "switchToArabic": "Switch to Arabic"
+  },
+  "common": {
+    "new": "New",
+    "viewAll": "View all",
+    "shopNow": "Shop now",
+    "stylesCount": "{{count}} styles",
+    "size": "Size {{size}}",
+    "itemsCount": "{{count}} items",
+    "colour": "Colour",
+    "quickAdd": "Quick add",
+    "selectSize": "Select size",
+    "addedToBag": "Added to bag",
+    "saveWishlist": "Save to wishlist",
+    "removeWishlist": "Remove from wishlist",
+    "rated": "Rated {{rating}} out of 5",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "header": {
+    "announcementsLabel": "Announcements",
+    "previousAnnouncement": "Previous announcement",
+    "nextAnnouncement": "Next announcement",
+    "help": "Help",
+    "findStore": "Find a store",
+    "region": "United States · USD $",
+    "announcements": [
+      { "long": "Complimentary shipping on orders over $100", "short": "Free shipping on orders over $100", "action": "Discover the Collection" },
+      { "long": "Free 30-day returns and exchanges", "short": "Free 30-day returns & exchanges", "action": "How it works" },
+      { "long": "The Autumn Coat Edit has landed", "short": "The Autumn Coat Edit is here", "action": "Shop Outerwear" }
+    ],
+    "primaryNav": "Primary",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "menu": "Menu",
+    "home": "FORME home",
+    "search": "Search",
+    "account": "Account",
+    "wishlist": "Wishlist, {{count}} items",
+    "shoppingBag": "Shopping bag, {{count}} items",
+    "nav": {
+      "new": "New Arrivals",
+      "women": "Women",
+      "men": "Men",
+      "essentials": "Essentials",
+      "collections": "Collections",
+      "sale": "Sale"
+    },
+    "mega": {
+      "clothing": "Clothing",
+      "essentials": "Essentials",
+      "accessories": "Accessories",
+      "outerwear": "Outerwear",
+      "knitwear": "Knitwear",
+      "shirts": "Shirts",
+      "trousers": "Trousers",
+      "denim": "Denim",
+      "shopAllMen": "Shop all men",
+      "coats": "Coats & Jackets",
+      "tops": "Shirts & Tops",
+      "shopAllWomen": "Shop all women",
+      "tshirts": "T-shirts",
+      "sweatshirts": "Sweatshirts",
+      "loungewear": "Loungewear",
+      "layering": "Layering",
+      "bags": "Bags",
+      "sunglasses": "Sunglasses",
+      "footwear": "Footwear",
+      "giftCards": "Gift cards",
+      "tailoredOuterwear": "Tailored Outerwear",
+      "newWomen": "New In: Women",
+      "denimReworked": "Denim, Reworked",
+      "coatEdit": "The Coat Edit"
+    },
+    "signIn": "Sign in / Create account",
+    "viewBag": "View bag"
+  },
+  "hero": {
+    "label": "Featured campaigns",
+    "imageAlt": "FORME seasonal campaign",
+    "goToSlide": "Go to slide {{number}}",
+    "previousSlide": "Previous slide",
+    "nextSlide": "Next slide",
+    "slides": [
+      { "eyebrow": "Autumn / Winter 2026", "title": "The Art of\nEveryday\nDressing", "sub": "Modern essentials designed for the way you move.", "cta": "Explore the Collection", "cta2": "Shop Women" },
+      { "eyebrow": "Just landed", "title": "New Season.\nNew Perspective.", "sub": "Softened tailoring and outerwear made for changing light.", "cta": "Shop New Arrivals", "cta2": "View Lookbook" },
+      { "eyebrow": "The Essentials Edit", "title": "Designed\nto Feel\nDifferent.", "sub": "Considered layers and honest materials — the pieces you reach for first.", "cta": "Discover Essentials", "cta2": "Shop Men" }
+    ]
+  },
+  "categories": {
+    "eyebrow": "Shop by category",
+    "title": "Start with what you reach for.",
+    "shopAll": "Shop all",
+    "collectionAlt": "{{name}} collection",
+    "items": {
+      "women": "Women",
+      "men": "Men",
+      "essentials": "Essentials",
+      "outerwear": "Outerwear",
+      "accessories": "Accessories"
+    }
+  },
+  "fresh": {
+    "eyebrow": "Just in",
+    "title": "Fresh Finds",
+    "carouselLabel": "Fresh Finds products",
+    "scrollPrevious": "Scroll products left",
+    "scrollNext": "Scroll products right"
+  },
+  "promo": {
+    "movementAlt": "Male model wearing modern essentials by the sea",
+    "movementNum": "01 — Essentials",
+    "movementTitle": "Made for\nMovement",
+    "movementCta": "Explore Modern Essentials",
+    "eyebrow": "The Autumn Edit",
+    "introTitle": "Quiet pieces, considered closely.",
+    "introBody": "Softer tailoring, tactile fabrics and the finishing touches that hold an outfit together.",
+    "detailsAlt": "Male model wearing contemporary jewellery",
+    "detailsNum": "02 — Accessories",
+    "detailsTitle": "Details That Define",
+    "detailsCta": "Discover the Edit"
+  },
+  "best": {
+    "eyebrow": "Best sellers",
+    "title": "The Most Loved",
+    "body": "The pieces our customers re-order, recommend and wear on repeat.",
+    "cta": "View All Products"
+  },
+  "story": {
+    "imageAlt": "Close-up of tailored accessories",
+    "tag": "The FORME Standard",
+    "eyebrow": "Our story",
+    "title": "Every Detail Matters.",
+    "body": "Thoughtfully considered pieces for the moments that make up everyday life — cut to move with you, made to be worn for seasons rather than weeks.",
+    "points": [
+      { "title": "Natural fibres first", "body": "Organic cotton, linen, merino and recycled wool." },
+      { "title": "Made in small runs", "body": "Fewer pieces, produced with partners we visit." },
+      { "title": "Designed to last", "body": "Reinforced seams, honest fabrics, free repairs." }
+    ],
+    "cta": "Discover Our Story"
+  },
+  "collections": {
+    "eyebrow": "Shop the collections",
+    "title": "Find Your Fit",
+    "shop": "Shop {{collection}}",
+    "tabs": {
+      "new": "New Arrivals",
+      "essentials": "Everyday Essentials",
+      "trending": "Trending Now",
+      "sale": "On Sale"
+    }
+  },
+  "lookbook": {
+    "eyebrow": "Lookbook · Autumn 26",
+    "title": "Wear It Your Way",
+    "body": "A white tee under a camel coat, softened by a relaxed pleated trouser. Tap the pins to shop the look.",
+    "cta": "Shop the Full Look — {{price}}",
+    "imageAlt": "Male model in a contemporary layered look",
+    "shopProduct": "Shop {{product}}"
+  },
+  "reviews": {
+    "eyebrow": "Reviews",
+    "title": "Loved Beyond the First Wear",
+    "average": "Average from sample reviews",
+    "verified": "Verified purchase",
+    "note": "Sample reviews shown for demonstration.",
+    "items": [
+      { "name": "Amira K.", "product": "Belted Cotton Trench", "text": "The cut is perfect — structured enough for work, relaxed enough for weekends. I have worn it almost every day since it arrived." },
+      { "name": "Daniel R.", "product": "Relaxed Wool Overcoat", "text": "Heavier and warmer than I expected for the price. The shoulders sit exactly right and it still looks sharp over a hoodie." },
+      { "name": "Sofia L.", "product": "Heavyweight Crew Tee", "text": "Finally a white tee that is not see-through and keeps its shape after washing. I ordered three more." },
+      { "name": "Yusuf M.", "product": "Merino Crew Knit", "text": "Soft, no itch, and it layers under everything. Delivery was quick and the packaging felt considered." }
+    ]
+  },
+  "benefits": {
+    "label": "Store benefits",
+    "items": [
+      { "title": "Complimentary Shipping", "body": "Free standard delivery on orders over $100." },
+      { "title": "Easy Returns", "body": "30 days to return or exchange, free of charge." },
+      { "title": "Secure Checkout", "body": "Encrypted payments with every major method." },
+      { "title": "Dedicated Support", "body": "Real people, seven days a week, by chat or email." }
+    ]
+  },
+  "social": {
+    "title": "Inside the FORME World",
+    "follow": "Follow Us",
+    "captions": ["Trench season", "Quiet layers", "Ivory, all week", "Weekend uniform", "Off-duty linen", "The finishing touch"]
+  },
+  "faq": {
+    "eyebrow": "Help",
+    "title": "Good to Know",
+    "intro": "Can't find what you're looking for? Our team replies within a few hours.",
+    "contact": "Contact support",
+    "items": [
+      { "question": "How long does shipping take?", "answer": "Standard delivery arrives in 3–5 business days and is complimentary on orders over $100. Express delivery (1–2 business days) is available at checkout for $15." },
+      { "question": "What is your return policy?", "answer": "You have 30 days from delivery to return or exchange unworn items with their tags attached. Returns are free within the US." },
+      { "question": "How do I find my size?", "answer": "Every product page has a fit note and a size chart. Most pieces are cut relaxed; choose your usual size for a classic fit." },
+      { "question": "Do you ship internationally?", "answer": "Yes — we ship to more than 40 countries. Duties and taxes are calculated at checkout." },
+      { "question": "How can I track my order?", "answer": "When your order leaves our warehouse you will receive an email with a tracking link." }
+    ]
+  },
+  "newsletter": {
+    "label": "Newsletter",
+    "eyebrow": "The FORME Letter",
+    "title": "Something Good in Your Inbox.",
+    "body": "Get first access to new arrivals, special collections, and more.",
+    "email": "Email address",
+    "placeholder": "you@example.com",
+    "subscribe": "Subscribe",
+    "success": "You're on the list — welcome to FORME.",
+    "error": "Please enter a valid email address.",
+    "note": "By subscribing you agree to receive marketing emails. Unsubscribe anytime. See our",
+    "privacy": "Privacy Policy"
+  },
+  "footer": {
+    "about": "Elevated essentials and contemporary apparel, designed for the way you actually live — and made to last well beyond the season.",
+    "onSocial": "FORME on {{network}}",
+    "columns": {
+      "shop": { "title": "Shop", "links": ["New Arrivals", "Women", "Men", "Essentials", "Collections", "Sale"] },
+      "care": { "title": "Customer care", "links": ["Contact us", "Shipping", "Returns & exchanges", "Size guide", "Track your order", "FAQ"] },
+      "company": { "title": "Company", "links": ["Our story", "Materials & care", "Repairs", "Stores", "Careers", "Gift cards"] }
+    },
+    "regionLabel": "Region",
+    "regions": ["United States (USD $)", "United Kingdom (GBP £)", "European Union (EUR €)", "United Arab Emirates (AED)", "Saudi Arabia (SAR)", "Egypt (EGP)"],
+    "payments": "Accepted payment methods",
+    "copyright": "© 2026 FORME. Demo storefront.",
+    "legal": ["Privacy Policy", "Terms of Service", "Cookie Settings", "Accessibility"]
+  },
+  "products": {
+    "p1": { "name": "Relaxed Wool Overcoat", "category": "Men · Outerwear" },
+    "p2": { "name": "Belted Cotton Trench", "category": "Women · Outerwear" },
+    "p3": { "name": "Heavyweight Crew Tee", "category": "Essentials · Unisex" },
+    "p4": { "name": "Organic Boxy Tee", "category": "Women · Essentials" },
+    "p5": { "name": "Linen Band-Collar Shirt", "category": "Men · Shirts" },
+    "p6": { "name": "Washed Denim Trucker", "category": "Unisex · Outerwear" },
+    "p7": { "name": "Structured Leather Tote", "category": "Accessories · Bags" },
+    "p8": { "name": "Heritage Leather Weekender", "category": "Accessories · Bags" },
+    "p9": { "name": "Court Leather Sneaker", "category": "Footwear" },
+    "p10": { "name": "Acetate Cat-Eye Sunglasses", "category": "Accessories · Eyewear" },
+    "p11": { "name": "Brushed Fleece Hoodie", "category": "Essentials · Unisex" },
+    "p12": { "name": "Pleated Wide-Leg Trouser", "category": "Women · Trousers" },
+    "p13": { "name": "Merino Crew Knit", "category": "Knitwear" },
+    "p14": { "name": "Relaxed Straight Jean", "category": "Women · Denim" },
+    "p15": { "name": "Oxford Chambray Shirt", "category": "Men · Shirts" },
+    "p16": { "name": "Double-Face Camel Coat", "category": "Women · Outerwear" },
+    "p17": { "name": "Loopback Crew Sweatshirt", "category": "Essentials · Unisex" },
+    "p18": { "name": "Easy Drawstring Trouser", "category": "Women · Trousers" }
+  },
+  "colors": {
+    "camel": "Camel", "charcoal": "Charcoal", "stone": "Stone", "khaki": "Khaki", "white": "White", "black": "Black", "oat": "Oat", "lightWash": "Light wash", "indigo": "Indigo", "cognac": "Cognac", "offWhite": "Off-white", "blush": "Blush", "tortoise": "Tortoise", "ecru": "Ecru", "fern": "Fern", "navy": "Navy", "light": "Light", "mint": "Mint"
+  },
+  "theme": {
+    "open": "Open theme color settings",
+    "close": "Close theme settings",
+    "colors": "Colors",
+    "dialog": "Theme settings: colors",
+    "title": "Theme settings",
+    "subtitle": "Colors · applies to every section",
+    "palette": "Color palette",
+    "paletteHelp": "Buttons, text, borders, badges, tabs, forms and the dark footer are derived from these six colors.",
+    "customPalettes": "Custom palettes",
+    "noCustom": "No custom palettes yet. Duplicate a preset or create one.",
+    "warnings": "{{count}} warnings",
+    "edit": "Edit", "duplicate": "Duplicate", "delete": "Delete", "create": "Create custom palette",
+    "schemes": "Section schemes",
+    "schemesHelp": "Sections use a coordinated Light or Dark scheme generated from the active palette.",
+    "storageUnavailable": "Browser storage is unavailable; settings last for this session.",
+    "storageSaved": "Palettes and section schemes are saved in this browser.",
+    "allPalettes": "All palettes",
+    "paletteName": "Palette name",
+    "baseColors": "Base colors",
+    "contrast": "Contrast validation",
+    "passes": "Passes AA",
+    "below": "Below {{target}}:1",
+    "useColor": "Use {{color}}",
+    "live": "Live preview is active",
+    "reset": "Reset", "save": "Save palette",
+    "untitled": "Untitled palette",
+    "customName": "Custom palette {{number}}",
+    "customSuffix": "{{name}} (custom)",
+    "sections": { "announce": "Announcement bar", "reviews": "Testimonials", "perks": "Trust benefits", "news": "Newsletter", "footer": "Footer" },
+    "presets": {
+      "monochrome": { "name": "Modern Monochrome", "desc": "Minimal · clean" },
+      "forest": { "name": "Forest Green", "desc": "Natural · confident" },
+      "luxury": { "name": "Warm Luxury", "desc": "Perfume · oud" },
+      "ocean": { "name": "Ocean Blue", "desc": "Modern · fresh" },
+      "bloom": { "name": "Soft Bloom", "desc": "Expressive · beauty" },
+      "olive": { "name": "Earth & Olive", "desc": "Editorial · FORME default" }
+    },
+    "fields": {
+      "bg": { "label": "Background", "hint": "Page sections" },
+      "surface": { "label": "Surface", "hint": "Alternate sections, cards" },
+      "text": { "label": "Primary text", "hint": "Headings, body, outlines" },
+      "muted": { "label": "Secondary text", "hint": "Captions, meta" },
+      "accent": { "label": "Accent", "hint": "Primary buttons, active states" },
+      "onAccent": { "label": "Accent contrast", "hint": "Text on accent" }
+    },
+    "audit": {
+      "primaryBackground": "Primary text on background",
+      "primarySurface": "Primary text on surface",
+      "secondaryBackground": "Secondary text on background",
+      "secondarySurface": "Secondary text on surface",
+      "buttonLabel": "Button label on accent",
+      "accentLinks": "Accent as text / links",
+      "accentButtons": "Accent buttons vs background"
+    }
+  }
+}

@@ -1,17 +1,13 @@
 export const PRESETS = [
-  { id:'monochrome', name:'Modern Monochrome', desc:'Minimal · clean', c:{ bg:'#FFFFFF',surface:'#F3F3F3',text:'#171717',muted:'#666666',accent:'#111111',onAccent:'#FFFFFF' } },
-  { id:'forest', name:'Forest Green', desc:'Natural · confident', c:{ bg:'#FFFFFF',surface:'#E8EDE7',text:'#17251C',muted:'#59675C',accent:'#24683E',onAccent:'#FFFFFF' } },
-  { id:'luxury', name:'Warm Luxury', desc:'Perfume · oud', c:{ bg:'#F8F5EF',surface:'#E9E2D8',text:'#2A231D',muted:'#665B50',accent:'#755437',onAccent:'#FFFFFF' } },
-  { id:'ocean', name:'Ocean Blue', desc:'Modern · fresh', c:{ bg:'#FFFFFF',surface:'#E7EFF6',text:'#172B40',muted:'#506779',accent:'#176799',onAccent:'#FFFFFF' } },
-  { id:'bloom', name:'Soft Bloom', desc:'Expressive · beauty', c:{ bg:'#FFF8FA',surface:'#F4E4ED',text:'#351F32',muted:'#775B70',accent:'#A02C64',onAccent:'#FFFFFF' } },
-  { id:'olive', name:'Earth & Olive', desc:'Editorial · FORME default', c:{ bg:'#F7F6F2',surface:'#EEEDE9',text:'#171717',muted:'#5B5B52',accent:'#565A42',onAccent:'#FFFFFF' } },
+  { id:'monochrome', c:{ bg:'#FFFFFF',surface:'#F3F3F3',text:'#171717',muted:'#666666',accent:'#111111',onAccent:'#FFFFFF' } },
+  { id:'forest', c:{ bg:'#FFFFFF',surface:'#E8EDE7',text:'#17251C',muted:'#59675C',accent:'#24683E',onAccent:'#FFFFFF' } },
+  { id:'luxury', c:{ bg:'#F8F5EF',surface:'#E9E2D8',text:'#2A231D',muted:'#665B50',accent:'#755437',onAccent:'#FFFFFF' } },
+  { id:'ocean', c:{ bg:'#FFFFFF',surface:'#E7EFF6',text:'#172B40',muted:'#506779',accent:'#176799',onAccent:'#FFFFFF' } },
+  { id:'bloom', c:{ bg:'#FFF8FA',surface:'#F4E4ED',text:'#351F32',muted:'#775B70',accent:'#A02C64',onAccent:'#FFFFFF' } },
+  { id:'olive', c:{ bg:'#F7F6F2',surface:'#EEEDE9',text:'#171717',muted:'#5B5B52',accent:'#565A42',onAccent:'#FFFFFF' } },
 ];
 
-export const COLOR_FIELDS = [
-  ['bg','Background','Page sections'],['surface','Surface','Alternate sections, cards'],
-  ['text','Primary text','Headings, body, outlines'],['muted','Secondary text','Captions, meta'],
-  ['accent','Accent','Primary buttons, active states'],['onAccent','Accent contrast','Text on accent'],
-];
+export const COLOR_FIELDS = ['bg','surface','text','muted','accent','onAccent'];
 export const DEFAULT_SCHEMES = { announce:'dark', reviews:'light', perks:'light', news:'light', footer:'dark' };
 export const STORE_KEY = 'forme.theme.v1';
 
@@ -50,12 +46,12 @@ export function buildTheme(c) {
 
 export function auditPalette(c) {
   const rows=[
-    ['text','Primary text on background',c.text,c.bg,4.5,[c.bg,c.surface]],['text','Primary text on surface',c.text,c.surface,4.5,[c.bg,c.surface]],
-    ['muted','Secondary text on background',c.muted,c.bg,4.5,[c.bg,c.surface]],['muted','Secondary text on surface',c.muted,c.surface,4.5,[c.bg,c.surface]],
-    ['onAccent','Button label on accent',c.onAccent,c.accent,4.5,[c.accent]],['accent','Accent as text / links',c.accent,c.bg,4.5,[c.bg,c.surface]],
-    ['accent','Accent buttons vs background',c.accent,c.bg,3,[c.bg]],
+    ['text','primaryBackground',c.text,c.bg,4.5,[c.bg,c.surface]],['text','primarySurface',c.text,c.surface,4.5,[c.bg,c.surface]],
+    ['muted','secondaryBackground',c.muted,c.bg,4.5,[c.bg,c.surface]],['muted','secondarySurface',c.muted,c.surface,4.5,[c.bg,c.surface]],
+    ['onAccent','buttonLabel',c.onAccent,c.accent,4.5,[c.accent]],['accent','accentLinks',c.accent,c.bg,4.5,[c.bg,c.surface]],
+    ['accent','accentButtons',c.accent,c.bg,3,[c.bg]],
   ];
-  return rows.map(([key,label,fg,bg,target,against])=>{const ratio=contrast(fg,bg);return {key,label,fg,bg,target,ratio:ratio.toFixed(1),ok:ratio>=target,fix:ratio>=target?null:ensure(fg,against,target)};});
+  return rows.map(([key,labelKey,fg,bg,target,against])=>{const ratio=contrast(fg,bg);return {key,labelKey,fg,bg,target,ratio:ratio.toFixed(1),ok:ratio>=target,fix:ratio>=target?null:ensure(fg,against,target)};});
 }
 
 export function loadTheme() {
