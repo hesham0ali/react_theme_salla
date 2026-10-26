@@ -18,7 +18,7 @@ function MegaMenu({ men = false }) {
   </div></div>;
 }
 
-export default function Header({ bag, wishCount, toast, announceScheme = 'dark' }) {
+export default function Header({ bag, wishCount, toast, announceScheme = 'dark', solid = false }) {
   const { t, i18n } = useTranslation();
   const rtl = isRtlLanguage(i18n.resolvedLanguage);
   const nextLanguage = rtl ? 'en' : 'ar';
@@ -47,7 +47,7 @@ export default function Header({ bag, wishCount, toast, announceScheme = 'dark' 
       <button className="announce__arrow" onClick={()=>move(1)} aria-label={t('header.nextAnnouncement')}><Icon name={directionIcon('next')} className="icon icon--sm"/></button>
       <div className="announce__side announce__side--r"><a href="#">{t('header.region')}</a></div>
     </div></div>
-    <header className={`hdr ${scrolled?'is-solid':''} ${drawer?'is-open':''}`}>
+    <header className={`hdr ${solid||scrolled?'is-solid':''} ${drawer?'is-open':''}`}>
       <div className="wrap hdr__in">
         <div className="hdr__navwrap">
           <button className="iconbtn hdr__burger" aria-label={t(`header.${drawer?'closeMenu':'openMenu'}`)} aria-expanded={drawer} onClick={()=>setDrawer(!drawer)}><Icon name={drawer?'close':'menu'}/></button>
@@ -58,7 +58,7 @@ export default function Header({ bag, wishCount, toast, announceScheme = 'dark' 
             <div className="nav__item"><a className="nav__link" href="#">{t('header.nav.essentials')}</a></div><div className="nav__item"><a className="nav__link" href="#">{t('header.nav.collections')}</a></div><div className="nav__item"><a className="nav__link nav__link--sale" href="#">{t('header.nav.sale')}</a></div>
           </nav>
         </div>
-        <a className="logo" href="#" aria-label={t('header.home')}>FORME</a>
+        <a className="logo" href="/" aria-label={t('header.home')}>FORME</a>
         <div className="hdr__actions"><button className="lang-switch" type="button" onClick={changeLanguage} aria-label={t(`language.${rtl?'switchToEnglish':'switchToArabic'}`)}>{t(`language.${rtl?'englishShort':'arabicShort'}`)}</button><button className="iconbtn" aria-label={t('header.search')}><Icon name="search"/></button><a className="iconbtn acct" href="#" aria-label={t('header.account')}><Icon name="user"/></a><a className="iconbtn wish" href="#" aria-label={t('header.wishlist',{count:formattedWishCount})}><Icon name="heart"/></a><a className="iconbtn bag" href="#" aria-label={t('header.shoppingBag',{count:formattedBagCount})}><Icon name="bag"/><span className="bag__count">{formattedBagCount}</span></a></div>
       </div>
       {drawer && <div className="drawer" role="dialog" aria-label={t('header.menu')}><nav className="drawer__nav">{navItems.map((item)=><a href="#" className={item==='sale'?'drawer__sale':''} key={item}>{t(`header.nav.${item}`)}<Icon name={directionIcon('next')}/></a>)}</nav><div className="drawer__feat"><a href="#"><img src={images.scarf} alt=""/><span>{t('header.mega.coatEdit')}</span></a><a href="#"><img src={images.rail} alt=""/><span>{t('header.nav.essentials')}</span></a></div><div className="drawer__foot"><button type="button" className="drawer__language" onClick={changeLanguage}><Icon name="globe"/>{t(`language.${rtl?'switchToEnglish':'switchToArabic'}`)}</button><a href="#"><Icon name="user"/>{t('header.signIn')}</a><a href="#"><Icon name="heart"/>{t('header.wishlist',{count:formattedWishCount})}</a><a href="#"><Icon name="globe"/>{t('header.region')}</a></div></div>}

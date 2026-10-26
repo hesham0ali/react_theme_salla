@@ -257,6 +257,40 @@
   "colors": {
     "camel": "Camel", "charcoal": "Charcoal", "stone": "Stone", "khaki": "Khaki", "white": "White", "black": "Black", "oat": "Oat", "lightWash": "Light wash", "indigo": "Indigo", "cognac": "Cognac", "offWhite": "Off-white", "blush": "Blush", "tortoise": "Tortoise", "ecru": "Ecru", "fern": "Fern", "navy": "Navy", "light": "Light", "mint": "Mint"
   },
+  "pdp": {
+    "breadcrumb": ["Home", "Menswear", "Shirts"],
+    "productImages": "Product images", "chooseImage": "Choose an image", "previousImage": "Previous image", "nextImage": "Next image", "zoomImage": "Zoom image", "close": "Close", "previous": "Previous", "next": "Next", "zoomHint": "Click the image to zoom",
+    "shots": { "front": "Front", "model": "On model", "detail": "Detail", "fabric": "Fabric" },
+    "ratingCount": "({{count}} reviews)", "rated": "Rated {{rating}} out of 5", "save": "Save {{percent}}%", "vat": "Price includes VAT", "inStock": "In stock", "unavailable": "Currently unavailable",
+    "select": "Select {{option}}", "missing": "Please select a {{option}} before adding to your bag.", "unavailableHint": "This option is currently unavailable — try another colour or size.", "sizeGuide": "Size guide",
+    "quantity": "Quantity", "decrease": "Decrease quantity", "increase": "Increase quantity", "add": "Add to bag", "adding": "Adding…", "added": "Added ✓", "buyNow": "Buy it now", "total": "Total", "saveWishlist": "Save to wishlist", "removeWishlist": "Remove from wishlist", "viewBag": "View bag", "addedMessage": "{{quantity}} × {{name}} ({{options}}) added to your bag.", "demoCheckout": "This is a demo storefront — no real payment is taken.",
+    "assurances": [
+      { "title": "Delivery in 2–4 business days", "body": "Complimentary shipping on orders over $100" },
+      { "title": "30-day exchanges and returns", "body": "Items must be unworn with original tags" },
+      { "title": "Secure checkout", "body": "Apple Pay and major cards" }
+    ],
+    "accordions": [
+      { "title": "Description", "body": "A relaxed band-collar shirt in lightweight linen that stays cool all day. Wear it with tailored trousers at the office or with denim at the weekend — it gets softer with every wash." },
+      { "title": "Fabric & details", "body": "100% linen · Lightweight 180 g/m² · Relaxed fit · Pre-washed · Cold wash and line dry." },
+      { "title": "Size & fit", "body": "Model is 183 cm and wears size M. Relaxed fit — take your usual size." },
+      { "title": "Shipping & delivery", "body": "Standard delivery arrives in 3–5 business days. A tracking link is sent as soon as your order ships." },
+      { "title": "Exchanges & returns", "body": "Exchange or return within 30 days of delivery, provided the item is unworn with its original tags." }
+    ],
+    "story": { "eyebrow": "The craft", "title": "Small details. A real difference.", "body": "Considered design and carefully chosen fabrics, made for comfort and ease every day.", "cta": "Explore the linen edit", "imageAlt": "Man wearing a white linen shirt on the beach", "fabricAlt": "Close-up of linen texture" },
+    "facts": [{"value":"100%","label":"pure linen"},{"value":"180 g","label":"lightweight per m²"},{"value":"Pre-washed","label":"soft from the first wear"}],
+    "reviews": { "eyebrow": "Reviews", "title": "What customers say", "based": "Based on 126 demo reviews", "filter": "Filter by star rating", "write": "Write a review", "showing": "Showing {{count}} reviews", "clear": "Clear filter", "sort": "Sort by", "newest": "Newest", "highest": "Highest rated", "lowest": "Lowest rated", "verified": "Verified purchase · demo", "empty": "No demo reviews with this rating.", "note": "Sample reviews for demonstration only — not real customer feedback.", "stars": "{{count}} stars",
+      "items": [
+        {"rating":5,"date":"18 October 2026","name":"Abdullah M.","variant":"Off-white · M","title":"Excellent, very comfortable fabric","text":"The linen is light and the fit is spot on. Comfortable from the office through the evening."},
+        {"rating":5,"date":"9 October 2026","name":"Faisal A.","variant":"Off-white · L","title":"Effortlessly smart","text":"Relaxed cut, and the band collar keeps it looking sharp. The off-white is even nicer in person."},
+        {"rating":4,"date":"27 September 2026","name":"Khalid S.","variant":"Stone grey · M","title":"Great — needs a light press","text":"Lovely shirt and excellent fabric. Linen creases naturally, but it presses quickly."},
+        {"rating":5,"date":"14 September 2026","name":"Mohammed R.","variant":"Stone grey · XL","title":"My new favourite shirt","text":"Bought the off-white, then came back for the grey. Quick delivery and neat packaging."}
+      ]
+    },
+    "related": { "eyebrow": "Complete the look", "title": "You may also like", "viewAll": "View all" },
+    "quickPurchase": "Quick purchase bar", "selectedOptions": "{{color}} · {{size}} · Qty {{quantity}}", "missingSelection": "Select {{option}}",
+    "size": { "title": "Size guide", "intro": "Garment measurements, laid flat. Between sizes? Size up for a more relaxed look.", "unit": "Measurement unit", "cm": "cm", "inch": "in", "size": "Size", "chest": "Chest", "length": "Length", "shoulder": "Shoulder", "sleeve": "Sleeve" },
+    "notFound": "Product not found", "backHome": "Return to the storefront"
+  },
   "theme": {
     "open": "Open theme color settings",
     "close": "Close theme settings",

@@ -15,6 +15,18 @@ export const images = {
   trench: a('male/male-coat-street.jpg'),
   coat: a('a8f87f8899ec2ff1c84756de05279ee6.jpg'),
   rail: a('f7a39498611020ea4ad51a8907c222d9.jpg'),
+  linenModel: a('product/5fd97c5c315fd1b0850fe9f12acbc4aa.jpg'),
+  linenStory: a('product/03434c12ce32080b4c42d95ba38210ef.jpg'),
+  linenFabric: a('product/904327a7cf0d3d261991ab46fa79adfc.jpg'),
+};
+
+export const productSlugs = {
+  p1:'relaxed-wool-overcoat', p2:'belted-cotton-trench', p3:'heavyweight-crew-tee',
+  p4:'organic-boxy-tee', p5:'classic-linen-shirt', p6:'washed-denim-trucker',
+  p7:'structured-leather-tote', p8:'heritage-leather-weekender', p9:'court-leather-sneaker',
+  p10:'acetate-cat-eye-sunglasses', p11:'brushed-fleece-hoodie', p12:'pleated-wide-leg-trouser',
+  p13:'merino-crew-knit', p14:'relaxed-straight-jean', p15:'oxford-chambray-shirt',
+  p16:'double-face-camel-coat', p17:'loopback-crew-sweatshirt', p18:'easy-drawstring-trouser',
 };
 
 const swatches = {
@@ -29,7 +41,7 @@ const rawProducts = [
   ['p2',245,images.trench,images.woman,false,swatches.stone,'4.9',212],
   ['p3',38,images.look,images.detail,false,swatches.neutral,'4.7',540],
   ['p4',34,images.woman,images.look,false,swatches.neutral,'4.6',188],
-  ['p5',89,images.man,images.coatAlt,false,swatches.neutral,'4.7',74,118],
+  ['p5',249,images.linenModel,images.linenStory,false,swatches.neutral,'4.8',126,329],
   ['p6',128,images.denim,images.rail,true,swatches.blue,'4.8',96],
   ['p7',185,images.bag,images.necklace,false, [['cognac','#8E532C'],['black','#1C1C1B']],'4.9',301,null,true],
   ['p8',265,images.bag,images.scarf,false, [['cognac','#8E532C']],'4.8',58,320,true],
@@ -45,7 +57,7 @@ const rawProducts = [
   ['p18',68,images.look,images.beach,false, [['mint','#BFD8C6'],['ecru','#EAE3D2']],'4.5',64,85],
 ];
 
-export const products = Object.fromEntries(rawProducts.map(([id,price,img,alt,badge,sw,rating,reviews,was,oneSize]) => [id,{id,price,img,alt,badge,sw,rating,reviews,was,oneSize}]));
+export const products = Object.fromEntries(rawProducts.map(([id,price,img,alt,badge,sw,rating,reviews,was,oneSize]) => [id,{id,slug:productSlugs[id],price,img,alt,badge,sw,rating,reviews,was,oneSize}]));
 export const freshIds = ['p6','p16','p12','p9','p1','p4','p10','p2'];
 export const lovedIds = ['p3','p2','p1','p13','p14','p7','p11','p15'];
 export const collections = [

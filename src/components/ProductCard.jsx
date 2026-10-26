@@ -19,7 +19,7 @@ export default function ProductCard({ product, rating = false, wished = false, o
 
   return <article className="pc">
     <div className="pc__media">
-      <a href="#" aria-label={name}>
+      <a href={`/products/${product.slug}`} aria-label={name}>
         <img className="pc__img pc__img--main has-alt" src={product.img} alt={name} loading="lazy" />
         <img className="pc__img pc__img--alt" src={product.alt} alt="" aria-hidden="true" loading="lazy" />
       </a>
@@ -35,7 +35,7 @@ export default function ProductCard({ product, rating = false, wished = false, o
     </div>
     <div className="pc__info">
       <p className="pc__cat">{category}</p>
-      <h3 className="pc__name"><a href="#">{name}</a></h3>
+      <h3 className="pc__name"><a href={`/products/${product.slug}`}>{name}</a></h3>
       <div className={`pc__price ${sale ? 'is-sale' : ''}`}><b>{formatPrice(product.price,i18n.resolvedLanguage)}</b>{sale && <s>{formatPrice(product.was,i18n.resolvedLanguage)}</s>}</div>
       <div className="pc__row">
         <div className="pc__swatches" role="group" aria-label={t('common.colour')}>
